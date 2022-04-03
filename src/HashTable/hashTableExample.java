@@ -1,17 +1,18 @@
-package MapCollection;
+package HashTable;
 
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Map;
 //import java.util.Map.Entry;
 import java.util.Set;
 
-public class hashMapExample {
+public class hashTableExample {
 
 	public static void main(String[] args) {
 		
 		/* This is how to declare HashMap */
-		HashMap<Integer, String> hm = new HashMap<Integer, String>();
+		Hashtable<Integer, String> hm = new Hashtable<Integer, String>();
 		
 	    /*Adding elements to HashMap*/
 		hm.put(0, "Hello");
